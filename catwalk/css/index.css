@@ -150,8 +150,8 @@ nav a:hover {
     overflow:hidden;
 }
 .form-image {
-    background-image: url(../css/images/grayscale\ of\ a\ man.jpeg);
-    height: 164vh;
+    background-image: url(../css/images/man-in-white-top.webp);
+    height: 71vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
@@ -160,17 +160,9 @@ nav a:hover {
     margin-left: 0%;
     margin-top: 0%;
     position:relative;
-  
-  /*
-    width: 90%;
-    padding: 20px;
-    margin: 100px auto;
-    display: flex;
-    justify-content: center;*/
 }
 .signup-form {
-
-    background-color:rgb(141, 137, 137);
+    background: linear-gradient(45deg, whitesmoke,transparent);
     margin: 150px 10% 0 0;
     color: black;
     max-width: 580px;
@@ -427,7 +419,7 @@ footer {
 }
 
 @media screen and (max-width:480px) {
-    #cover-text {
+    #cover-text h2 {
         font-size: 10px;
     }
     #form-section {
@@ -448,7 +440,7 @@ footer {
     .signup-form > h2 {
         color: black;
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 20spx;
     }
     .text-input-form {
         background:transparent;
