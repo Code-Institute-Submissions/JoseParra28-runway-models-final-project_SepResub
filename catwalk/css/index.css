@@ -45,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: rgb(146, 145, 145);
 }
 
 .hov {
@@ -264,6 +264,45 @@ nav a:hover {
     background-color: #7f2525;
     color: rgb(188, 184, 184);
     opacity: .9;
+}
+.container {
+    color: rgb(48, 48, 48);
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: block;
+    justify-content: center;
+    
+}
+.container h3 {
+    font-size: 2rem;
+    
+}
+.container h5 {
+    font-size: 20px ;
+    padding-bottom: 10px;
+
+}
+
+#table {
+    color:rgb(48, 48, 48);
+    padding-left: 2%;
+    display: inline-block;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+    justify-content:flex-start;
+}
+#table th {
+    font-size: 2em;
+    justify-content: flex-start;
+}
+table td {
+    font-size: 20px;
 }
 
 
