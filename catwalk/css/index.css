@@ -152,6 +152,16 @@ footer {
 }
 
 @media screen and (max-width:950px) {
+    .logo {
+        font-size: 1em;
+    }
+
+    #cover-text {
+        font-size: 15px;
+    }
+    
+
+
 ul,li{
     margin: 0;
     padding: 0;
