@@ -75,8 +75,8 @@ nav a:hover {
 }
 
 #cover-text h2 {
-    color: white;
-    font-size: 5rem;
+    color:whitesmoke;
+    font-size: 3rem;
     background: linear-gradient(45deg, black, transparent);
     padding: 32px;
 }
@@ -333,8 +333,8 @@ footer {
         font-size: 2em;
     }
 
-    #cover-text {
-        font-size: 15px;
+    #cover-text h2 {
+        font-size: 1em;
     }
     #we-are {
         font-size: 20px;
@@ -442,7 +442,7 @@ footer {
         font-size: 1em;
     }
     #cover-text h2 {
-        font-size: 10px;
+        font-size: 21px;
     }
     #we-are {
         font-size: 11px;
