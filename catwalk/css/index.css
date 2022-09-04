@@ -33,7 +33,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
@@ -79,26 +79,17 @@ nav a:hover {
 #cover-text h2 {
     color:whitesmoke;
     font-size: 3rem;
-    background: linear-gradient(45deg, black, transparent);
+    background: linear-gradient(4deg, black, transparent);
     padding: 32px;
 }
 
-.text-1 {
-   color:rgb(98, 93, 93);
-    display: flex;
-    font-size: 2em;
-    padding-right: 5px;
-}
 .text-link {
     text-decoration: none;
     font-size: 2em;
     text-align: center;
-    color: rgb(121, 118, 118);
+    color:rgb(98, 93, 93) ;
     display: flex;
     padding: 4px;
-}
-.text-1:hover {
-    color: #7f2525;
 }
 
 
@@ -106,7 +97,6 @@ nav a:hover {
     width: 90%;
     padding: 20px;
     margin: 100px auto;
-    display: flex;
     flex-direction: row;
     justify-content: center;
 }
@@ -129,6 +119,7 @@ nav a:hover {
     z-index: 2;
 
 }
+
 
 .portafolio {
     width: 90%;
@@ -369,6 +360,11 @@ footer {
     padding-top: 10px;
 }
 
+@media screen and (min-width:1200px) {
+    nav ul {
+        display: flex;
+    }
+}
 @media screen and (max-width:950px) {
     .logo {
         font-size: 2em;
