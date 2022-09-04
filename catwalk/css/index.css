@@ -143,23 +143,42 @@ nav a:hover {
     border-bottom: 1px solid #3a3a3a;
     font-size: 2em;
 }
-
 #form-section {
-    clear: both;
-    background-size: cover;
+    clear:both;
+    background-size:cover;
     background-position: center;
-    overflow: hidden;
-
+    overflow:hidden;
 }
-
+.form-image {
+    background-image: url(../css/images/grayscale\ of\ a\ man.jpeg);
+    height: 164vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-top: 0%;
+    position:relative;
+  
+  /*
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;*/
+}
 .signup-form {
+
+    background-color:rgb(141, 137, 137);
     margin: 150px 10% 0 0;
     color: black;
-    max-width: 400px;
+    max-width: 580px;
     position: absolute;
-    left: 22%;
-    padding: 30px;
-    font-size: 22px;
+    left: 19%;
+    padding: 12px;
+    font-size: 25px;
+
 
 }
 
@@ -172,7 +191,7 @@ nav a:hover {
 .text-input-form {
     background: transparent;
     color: #000000;
-    width: 120%;
+    width: 97%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #3a3a3a;
@@ -182,7 +201,7 @@ nav a:hover {
 
 #message {
     height: 100px;
-    width: 120%;
+    width: 97%;
 }
 
 .text-input-form:hover {
@@ -404,10 +423,50 @@ footer {
         z-index: 2;
 
     }
+    
 }
 
 @media screen and (max-width:480px) {
     #cover-text {
         font-size: 10px;
     }
+    #form-section {
+        clear:both;
+        background-size:cover;
+        background-position: center;
+        overflow:hidden;
+    
+    }
+    .signup-form {
+        margin: 31px 10% 0 0;
+        max-width: 267px;
+        left: -2%;
+        padding: 30px;
+        font-size: 14px;
+    
+    }
+    .signup-form > h2 {
+        color: black;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .text-input-form {
+        background:transparent;
+        color:#000000;
+        width: 90%;
+        height: 20px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #3a3a3a;
+        border-radius: 2px;
+        font-size: 18px;
+    }
+    #message {
+        height: 90px;
+        width: 95%;
+    }
+    .text-input-form:hover { 
+        border-color:#3a3a3a;
+        background-color: rgb(188, 184, 184);
+        opacity: .9;
+}
 }
