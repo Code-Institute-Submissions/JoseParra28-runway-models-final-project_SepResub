@@ -1,47 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-body 
-    .wrapper {
-        background-color: whitesmoke;
-        font-weight: 100px;
-        width: 100%;
-        max-width: 1895px;
-        margin: 0 auto;
-    }
-    .logo {
-        letter-spacing: 5px;
-        font-family:inherit;
-        font-size: 3em;
-        color:rgb(121, 118, 118);
-    }
-    span {
-        font-family:cursive;
-        color:rgb(98, 93, 93);
-    }
+
+body .wrapper {
+    background-color: whitesmoke;
+    font-weight: 100px;
+    width: 100%;
+    max-width: 1895px;
+    margin: 0 auto;
+}
+
+.logo {
+    letter-spacing: 5px;
+    font-family: inherit;
+    font-size: 3em;
+    color: rgb(121, 118, 118);
+}
+
+span {
+    font-family: cursive;
+    color: rgb(98, 93, 93);
+}
+
 nav {
     background: whitesmoke;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
 }
+
 nav a {
     text-decoration: none;
     font-size: 2em;
     text-align: center;
     color: rgb(121, 118, 118);
     display: block;
-    padding:4px ;
+    padding: 4px;
 }
+
 nav a:hover {
     background-color: #555;
 }
+
 .hov {
     color: whitesmoke;
+}
+
+.active {
+    border-bottom: 2px solid #3a3a3a;
+
 }
 
 #cover-text {
@@ -50,18 +63,43 @@ nav a:hover {
     font-size: 2em;
     color: rgb(98, 93, 93);
     text-align: center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    background-image: url(../css/images/man-weaing-a-hat.jpeg);
+    height: 64vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
-@keyframes hero-zoom {
-from {
-transform: scale(1);
+
+#cover-text h2 {
+    color: white;
+    font-size: 5rem;
+    background: linear-gradient(45deg, black, transparent);
+    padding: 32px;
 }
-to {
-transform: scale(1.1);
+
+.text-1 {
+   color:rgb(98, 93, 93);
+    display: flex;
+    font-size: 2em;
+    padding-right: 5px;
 }
+.text-link {
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(121, 118, 118);
+    display: flex;
+    padding: 4px;
 }
+.text-1:hover {
+    color: #7f2525;
+}
+
+
 .hero-gallery {
     width: 90%;
     padding: 20px;
@@ -70,22 +108,26 @@ transform: scale(1.1);
     flex-direction: row;
     justify-content: center;
 }
+
 .gallery {
     width: 250px;
     margin: 0;
     transition: 1s;
 
 }
+
 .gallery img {
     display: block;
     height: 30vh;
     width: 100%;
 }
+
 .gallery:hover {
     transform: scale(1.3);
     z-index: 2;
 
 }
+
 .portafolio {
     width: 90%;
     padding: 20px;
@@ -94,19 +136,22 @@ transform: scale(1.1);
     flex-direction: row;
     justify-content: center;
 }
+
 .desc {
-    
+
     font-family: inherit;
     border-bottom: 1px solid #3a3a3a;
     font-size: 2em;
 }
+
 #form-section {
-    clear:both;
-    background-size:cover;
+    clear: both;
+    background-size: cover;
     background-position: center;
-    overflow:hidden;
+    overflow: hidden;
 
 }
+
 .signup-form {
     margin: 150px 10% 0 0;
     color: black;
@@ -117,14 +162,16 @@ transform: scale(1.1);
     font-size: 22px;
 
 }
-.signup-form > h2 {
+
+.signup-form>h2 {
     color: black;
     margin-bottom: 20px;
     font-size: 35px;
 }
+
 .text-input-form {
-    background:transparent;
-    color:#000000;
+    background: transparent;
+    color: #000000;
     width: 120%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -132,36 +179,40 @@ transform: scale(1.1);
     border-radius: 2px;
     font-size: 18px;
 }
+
 #message {
     height: 100px;
     width: 120%;
 }
-.text-input-form:hover { 
-    border-color:#3a3a3a;
+
+.text-input-form:hover {
+    border-color: #3a3a3a;
     background-color: rgb(188, 184, 184);
     opacity: .9;
-    
+
 }
+
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color:#111111;
+    background-color: #111111;
     display: block;
     color: rgb(188, 184, 184);
 }
+
 .join-button:hover {
-    background-color:#7f2525;
+    background-color: #7f2525;
     color: rgb(188, 184, 184);
     opacity: .9;
 }
 
-#we-are  {
+#we-are {
     font-size: 30px;
     text-transform: uppercase;
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
     position: absolute;
     left: 6%;
     top: 30%;
@@ -169,16 +220,19 @@ transform: scale(1.1);
     animation-name: about-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
- }
- @keyframes about-zoom {
-    from {
-transform: scale(1);
-    }
-    to {
-transform: scale(1.1);
-    }
-  
 }
+
+@keyframes about-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+}
+
 #we-are-p {
     font-size: 30px;
     text-transform: capitalize;
@@ -186,17 +240,18 @@ transform: scale(1.1);
     width: 500px;
     height: 150px;
 
-    position:absolute;
+    position: absolute;
     clear: both;
 }
 
 footer {
-    
+
     width: 100%;
     background-color: whitesmoke;
     padding: 20px 0;
     flex-direction: column;
 }
+
 .social-media {
     display: flex;
     text-align: center;
@@ -217,28 +272,33 @@ footer {
     text-align: center;
     opacity: .7;
     font-family: inherit;
-    
+
 }
+
 #twitter:hover {
     transition: .3s;
-    color:#00acee;
+    color: #00acee;
     transition: .3s;
 }
+
 #youtube:hover {
     transition: .3s;
-    color:#FF0000;
+    color: #FF0000;
     transition: .3s;
 }
+
 #instagram:hover {
     transition: .3s;
-    color:#FCAF45;
+    color: #FCAF45;
     transition: .3s;
 }
-#facebook:hover{
+
+#facebook:hover {
     transition: .3s;
-    color: 	#4267B2;
+    color: #4267B2;
     transition: .3s;
 }
+
 .menu-bar-footer {
     justify-content: center;
     padding-top: 10px;
@@ -252,92 +312,100 @@ footer {
     #cover-text {
         font-size: 15px;
     }
-    .social-media  {
+
+    .social-media {
         display: block;
-    
+
     }
+
     .portafolio {
         display: grid;
     }
+
     nav a {
         padding: 1px;
     }
-    
-    ul,li{
+
+    ul,
+    li {
         margin: 0;
         padding: 0;
-        list-style:none;
-      }
-      .main{
-        position:absolute;
-        z-index:1;
-        
-      }
-      .main li{
-        list-style:none;
+        list-style: none;
+    }
+
+    .main {
+        position: absolute;
+        z-index: 1;
+
+    }
+
+    .main li {
+        list-style: none;
         background: whitesmoke;
-        width:120px;
+        width: 120px;
         padding: 0 5px;
         height: 30px;
-      
+
         line-height: 25px;
-        
+
         -webkit-transition: all .5s ease-in-out;
-        
-      }
-      
-      .main li:nth-child(odd){
-        
+
+    }
+
+    .main li:nth-child(odd) {
+
         -webkit-transform-origin: top;
         -webkit-transform: perspective(350px) rotateX(-90deg);
-      }
-      
-      .main li:nth-child(even){
-         margin-top:-65px;
+    }
+
+    .main li:nth-child(even) {
+        margin-top: -65px;
         -webkit-transform-origin: bottom;
         -webkit-transform: perspective(350px) rotateX(90deg);
-      }
-      
-      .main {
-        
+    }
+
+    .main {
+
         -webkit-transition: all .5s ease-in-out;
         -webkit-transform-origin: 50% 0%;
         -webkit-transform: perspective(350px) rotateX(-90deg);
-      }
-      
-      .hov:hover .main {
-        
+    }
+
+    .hov:hover .main {
+
         -webkit-transform-origin: top;
         -webkit-transform: perspective(350px) rotateX(0deg);
-      }
-      
-      .hov:hover li:nth-child(odd){
+    }
+
+    .hov:hover li:nth-child(odd) {
         -webkit-transform-origin: top;
         -webkit-transform: perspective(350px) rotateX(0deg);
-        margin-top:0;
-      }
-      
-      .hov:hover li:nth-child(even){
+        margin-top: 0;
+    }
+
+    .hov:hover li:nth-child(even) {
         -webkit-transform-origin: bottom;
         -webkit-transform: perspective(350px) rotateX(0deg);
-         margin-top:0;
-      }
-      .hov{
-          font-family: inherit;
-          position:relative;
-          height: 34px;
-          width: 58px;
-          border-radius: 3%;
-          background:#3a3a3a;
-          color: white;
-          font-size: 10px;
-          text-align: center;
-          line-height: 40px;
-          list-style:none;
-          z-index:2;
-          
-        }
+        margin-top: 0;
+    }
+
+    .hov {
+        font-family: inherit;
+        position: relative;
+        height: 34px;
+        width: 58px;
+        border-radius: 3%;
+        background: #3a3a3a;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        line-height: 40px;
+        list-style: none;
+        z-index: 2;
+
+    }
 }
+
 @media screen and (max-width:480px) {
     #cover-text {
         font-size: 10px;
