@@ -143,6 +143,52 @@ nav a:hover {
     border-bottom: 1px solid #3a3a3a;
     font-size: 2em;
 }
+.about-image {
+    background-image: url(../css/images/woman-in-bodysuit.jpeg);
+    height: 68vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-top: 0%;
+    position:relative;
+}
+#we-are {
+    background: linear-gradient(45deg, black,transparent);
+    color: whitesmoke;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 6%;
+    top: 18%;
+    text-align: left;
+    animation-name: about-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes about-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+}
+
+#we-are-p {
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    width: 500px;
+   
+    
+}
 #form-section {
     clear:both;
     background-size:cover;
@@ -220,40 +266,7 @@ nav a:hover {
     opacity: .9;
 }
 
-#we-are {
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    position: absolute;
-    left: 6%;
-    top: 30%;
-    text-align: left;
-    animation-name: about-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
 
-@keyframes about-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-
-}
-
-#we-are-p {
-    font-size: 30px;
-    text-transform: capitalize;
-    letter-spacing: 5px;
-    width: 500px;
-    height: 150px;
-
-    position: absolute;
-    clear: both;
-}
 
 footer {
 
@@ -317,10 +330,16 @@ footer {
 
 @media screen and (max-width:950px) {
     .logo {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     #cover-text {
+        font-size: 15px;
+    }
+    #we-are {
+        font-size: 20px;
+    }
+    #we-are p {
         font-size: 15px;
     }
 
@@ -419,8 +438,18 @@ footer {
 }
 
 @media screen and (max-width:480px) {
+    .logo {
+        font-size: 1em;
+    }
     #cover-text h2 {
         font-size: 10px;
+    }
+    #we-are {
+        font-size: 11px;
+    }
+    #we-are p {
+        font-size: 9px;
+        width: 300px;
     }
     #form-section {
         clear:both;
@@ -431,7 +460,7 @@ footer {
     }
     .signup-form {
         margin: 31px 10% 0 0;
-        max-width: 267px;
+        max-width: 328px;
         left: -2%;
         padding: 30px;
         font-size: 14px;
@@ -454,7 +483,7 @@ footer {
     }
     #message {
         height: 90px;
-        width: 95%;
+        width: 90%;
     }
     .text-input-form:hover { 
         border-color:#3a3a3a;
