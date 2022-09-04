@@ -86,6 +86,109 @@ transform: scale(1.1);
     z-index: 2;
 
 }
+.portafolio {
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.desc {
+    
+    font-family: inherit;
+    border-bottom: 1px solid #3a3a3a;
+    font-size: 2em;
+}
+#form-section {
+    clear:both;
+    background-size:cover;
+    background-position: center;
+    overflow:hidden;
+
+}
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: black;
+    max-width: 400px;
+    position: absolute;
+    left: 22%;
+    padding: 30px;
+    font-size: 22px;
+
+}
+.signup-form > h2 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.text-input-form {
+    background:transparent;
+    color:#000000;
+    width: 120%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+    font-size: 18px;
+}
+#message {
+    height: 100px;
+    width: 120%;
+}
+.text-input-form:hover { 
+    border-color:#3a3a3a;
+    background-color: rgb(188, 184, 184);
+    opacity: .9;
+    
+}
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color:#111111;
+    display: block;
+    color: rgb(188, 184, 184);
+}
+.join-button:hover {
+    background-color:#7f2525;
+    color: rgb(188, 184, 184);
+    opacity: .9;
+}
+
+#we-are  {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px; 
+    position: absolute;
+    left: 6%;
+    top: 30%;
+    text-align: left;
+    animation-name: about-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+ }
+ @keyframes about-zoom {
+    from {
+transform: scale(1);
+    }
+    to {
+transform: scale(1.1);
+    }
+  
+}
+#we-are-p {
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    width: 500px;
+    height: 150px;
+
+    position:absolute;
+    clear: both;
+}
 
 footer {
     
@@ -152,6 +255,9 @@ footer {
     .social-media  {
         display: block;
     
+    }
+    .portafolio {
+        display: grid;
     }
     nav a {
         padding: 1px;
@@ -232,3 +338,4 @@ footer {
           
         }
 }
+
