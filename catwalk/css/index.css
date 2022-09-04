@@ -9,7 +9,7 @@ body
         background-color: whitesmoke;
         font-weight: 100px;
         width: 100%;
-        max-width: 960px;
+        max-width: 1895px;
         margin: 0 auto;
     }
     .logo {
@@ -338,4 +338,8 @@ footer {
           
         }
 }
-
+@media screen and (max-width:480px) {
+    #cover-text {
+        font-size: 10px;
+    }
+}
