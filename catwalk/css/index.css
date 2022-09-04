@@ -82,20 +82,12 @@ transform: scale(1.1);
     z-index: 2;
 
 }
-.video {
 
-    width: 90%;
-    padding: 20px;
-    margin: 100px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 footer {
     
     width: 100%;
     background-color: whitesmoke;
-    padding: 30px 0;
+    padding: 20px 0;
     flex-direction: column;
 }
 .social-media {
@@ -117,13 +109,7 @@ footer {
     display: inline-block;
     text-align: center;
     opacity: .7;
-    
-}
-
-.social-media:hover {
-    transition: .3s;
-    color: rgb(136, 133, 133);
-    transition: 1s;
+    font-family: inherit;
     
 }
 #twitter:hover {
@@ -158,6 +144,10 @@ footer {
 
     #cover-text {
         font-size: 15px;
+    }
+    .social-media  {
+        display: block;
+    
     }
     
 
