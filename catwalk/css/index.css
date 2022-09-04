@@ -90,6 +90,14 @@ nav a:hover {
     color:rgb(98, 93, 93) ;
     display: flex;
     padding: 4px;
+    border-bottom: 2px solid #3a3a3a;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    color:rgb(98, 93, 93) ;
+    display:contents;
+    padding: 4px;
 }
 
 
@@ -365,6 +373,10 @@ footer {
         display: flex;
     }
 }
+@media screen and (max-width:1200px){
+    
+
+}
 @media screen and (max-width:950px) {
     .logo {
         font-size: 2em;
@@ -487,6 +499,9 @@ footer {
     #we-are p {
         font-size: 9px;
         width: 300px;
+    }
+    .text-link {
+        font-size: 28px;
     }
     #form-section {
         clear:both;
