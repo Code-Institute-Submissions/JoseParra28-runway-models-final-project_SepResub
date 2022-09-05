@@ -101,8 +101,8 @@ p {
 }
 
 
-.hero-gallery {
-    width: 90%;
+.hero-text {
+    width: 50%;
     padding: 20px;
     margin: 100px auto;
     flex-direction: row;
