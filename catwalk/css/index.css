@@ -152,53 +152,6 @@ p {
     font-size: 25px;
    text-align: center;
 }
-/*
-.gallery {
-    width: 250px;
-    margin: 0;
-    transition: 1s;
-    display: block;
-
-}
-.gallery img {
-    display: block;
-    width: 100%;
-}
-.gallery:hover {
-    transform: scale(1.3);
-    z-index: 2;
-
-}
-
-.gallery {
-    width: 250px;
-    margin: 0;
-    transition: 1s;
-
-}
-
-.gallery img {
-    display: block;
-    height: 30vh;
-    width: 99%;
-}
-
-.gallery:hover {
-    transform: scale(1.3);
-    z-index: 2;
-
-}
-
-
-.portafolio {
-    width: 90%;
-    padding: 20px;
-    margin: 100px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-*/
 
 .about-image {
     background-image: url(../css/images/two-models.jpg);
@@ -253,7 +206,9 @@ p {
     background-size:cover;
     background-position: center;
     overflow:hidden;
+   
 }
+
 .form-image {
     background-image: url(../css/images/man-in-white-top.webp);
     height: 71vh;
@@ -267,7 +222,7 @@ p {
     position:relative;
 }
 .signup-form {
-    background: linear-gradient(45deg, whitesmoke,transparent);
+    background: linear-gradient(6deg, #a2a2a2,transparent);
     margin: 150px 10% 0 0;
     color: black;
     max-width: 580px;
@@ -275,7 +230,18 @@ p {
     left: 19%;
     padding: 12px;
     font-size: 25px;
+    animation-name: about-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes about-zoom {
+    from {
+        transform: scale(1);
+    }
 
+    to {
+        transform: scale(1.1);
+    }
 
 }
 
