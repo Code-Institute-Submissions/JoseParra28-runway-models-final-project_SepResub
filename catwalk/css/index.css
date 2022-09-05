@@ -120,7 +120,30 @@ p {
     flex-direction: row;
     justify-content: center;
 }
+.portafolio {
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gallery {
+    width: 250px;
+    margin: 0;
+    transition: 1s;
 
+}
+.gallery img {
+    display: block;
+    width: 100%;
+}
+.gallery:hover {
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+/*
 .gallery {
     width: 250px;
     margin: 0;
@@ -149,7 +172,7 @@ p {
     flex-direction: row;
     justify-content: center;
 }
-
+*/
 .desc {
 
     font-family: inherit;
@@ -391,11 +414,13 @@ footer {
     }
 }
 @media screen and (max-width:1300px){
+    /*
     .gallery img {
         display: block;
         height: 19vh;
         width: 99%;
 }
+*/
 .form-image {
     height: 97vh;
 }
