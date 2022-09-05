@@ -72,6 +72,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 
 
 }
@@ -81,6 +82,17 @@ nav a:hover {
     font-size: 3rem;
     background: linear-gradient(4deg, black, transparent);
     padding: 32px;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes hero-zoom {
+from {
+transform: scale(1);
+}
+to {
+transform: scale(1.1);
+}
 }
 
 .text-link {
@@ -119,7 +131,7 @@ p {
 .gallery img {
     display: block;
     height: 30vh;
-    width: 100%;
+    width: 99%;
 }
 
 .gallery:hover {
@@ -374,9 +386,12 @@ footer {
     }
 }
 @media screen and (max-width:1200px){
-    
-
+    .gallery img {
+        display: block;
+        height: 19vh;
+        width: 99%;
 }
+
 @media screen and (max-width:950px) {
     .logo {
         font-size: 2em;
@@ -503,6 +518,10 @@ footer {
     .text-link {
         font-size: 28px;
     }
+    .hero-text {
+        width: 90%;
+    }
+       
     #form-section {
         clear:both;
         background-size:cover;
@@ -541,5 +560,6 @@ footer {
         border-color:#3a3a3a;
         background-color: rgb(188, 184, 184);
         opacity: .9;
+}
 }
 }
