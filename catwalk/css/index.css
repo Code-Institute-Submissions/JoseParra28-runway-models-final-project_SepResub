@@ -8,13 +8,7 @@
     
 }
 
-body .wrapper {
-    background-color: whitesmoke;
-    font-weight: 100px;
-    width: 100%;
-    max-width: 1895px;
-    margin: 0 auto;
-}
+
 
 .logo {
     letter-spacing: 5px;
@@ -60,14 +54,22 @@ nav a:hover {
     border-bottom: 2px solid #3a3a3a;
 
 }
-
+.hero-image {
+    background-image: url(../css/images/man-weaing-a-hat.jpeg);
+    height: 64vh;
+    padding: 7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #cover-text {
     height: 0px;
     font-family: inherit;
     font-size: 2em;
     color: rgb(98, 93, 93);
     text-align: center;
-    background-image: url(../css/images/man-weaing-a-hat.jpeg);
     height: 64vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,8 +77,6 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     
-
-
 }
 
 #cover-text h2 {
@@ -84,6 +84,7 @@ nav a:hover {
     font-size: 3rem;
     background: linear-gradient(4deg, black, transparent);
     padding: 32px;
+    width: 100%;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -122,14 +123,7 @@ p {
     flex-direction: row;
     justify-content: center;
 }
-.portafolio {
-    width: 90%;
-    padding: 20px;
-    margin: 100px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 .img-galley {
     width: 80%;
     margin: 100px auto 50px;
@@ -154,9 +148,11 @@ p {
 }
 
 .about-image {
-    background-image: url(../css/images/two-models.jpg);
-    height: 68vh;
+    background-image: url(../css/images/three-men-wearing-white.jpeg);
+    height: 67vh;
     width: 100%;
+    padding: 4%;
+    margin: -5;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: right;
@@ -166,15 +162,15 @@ p {
     position:relative;
 }
 #we-are {
-    background: linear-gradient(50deg, black,transparent);
-    color: whitesmoke;
+    background: linear-gradient(50deg, #464646,transparent);
+    color: #3d3b3b;
     font-size: 2em;
     text-transform: uppercase;
     width: 75%;
     letter-spacing: 5px;
     position: absolute;
     left: 6%;
-    top: 18%;
+    top: 16%;
     text-align: left;
     animation-name: about-zoom;
     animation-duration: 5s;
@@ -193,7 +189,7 @@ p {
 }
 
 #we-are-p {
-    color: whitesmoke;
+    color: #3d3b3b;
     font-size: 30px;
     text-transform: capitalize;
     letter-spacing: 5px;
@@ -249,6 +245,7 @@ p {
     color: black;
     margin-bottom: 20px;
     font-size: 35px;
+    font-family: inherit;
 }
 
 .text-input-form {
@@ -399,6 +396,9 @@ footer {
     .form-image {
         height: 97vh;
     }
+    .hero-image {
+        background-image: url(../css/images/man-weaing-a-hat.jpeg);
+    }
 }
 @media screen and (max-width:1300px){
     /*
@@ -528,6 +528,7 @@ footer {
     }
     #cover-text h2 {
         font-size: 21px;
+       
     }
     #we-are {
         font-size: 15px;
@@ -585,5 +586,4 @@ footer {
     height: 68vh;
 }
 
-}
 }
