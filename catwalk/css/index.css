@@ -386,6 +386,9 @@ footer {
     nav ul {
         display: flex;
     }
+    .form-image {
+        height: 97vh;
+    }
 }
 @media screen and (max-width:1300px){
     .gallery img {
@@ -396,6 +399,7 @@ footer {
 .form-image {
     height: 97vh;
 }
+
 
 @media screen and (max-width:950px) {
     .logo {
