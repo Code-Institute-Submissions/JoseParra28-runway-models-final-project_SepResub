@@ -387,11 +387,14 @@ footer {
         display: flex;
     }
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1300px){
     .gallery img {
         display: block;
         height: 19vh;
         width: 99%;
+}
+.form-image {
+    height: 97vh;
 }
 
 @media screen and (max-width:950px) {
@@ -546,7 +549,7 @@ footer {
     .text-input-form {
         background:transparent;
         color:#000000;
-        width: 90%;
+        width: 92%;
         height: 20px;
         margin: 5px 0 20px 0;
         border: 1px solid #3a3a3a;
@@ -555,12 +558,15 @@ footer {
     }
     #message {
         height: 90px;
-        width: 90%;
+        width: 92%;
     }
     .text-input-form:hover { 
         border-color:#3a3a3a;
         background-color: rgb(188, 184, 184);
         opacity: .9;
+}
+.form-image {
+    height: 68vh;
 }
 }
 }
