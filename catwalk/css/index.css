@@ -169,10 +169,11 @@ p {
     position:relative;
 }
 #we-are {
-    background: linear-gradient(45deg, black,transparent);
+    background: linear-gradient(50deg, black,transparent);
     color: whitesmoke;
     font-size: 2em;
     text-transform: uppercase;
+    width: 75%;
     letter-spacing: 5px;
     position: absolute;
     left: 6%;
@@ -195,6 +196,7 @@ p {
 }
 
 #we-are-p {
+    color: whitesmoke;
     font-size: 30px;
     text-transform: capitalize;
     letter-spacing: 5px;
@@ -401,10 +403,10 @@ footer {
         font-size: 1em;
     }
     #we-are {
-        font-size: 20px;
+        font-size: 25px;
     }
     #we-are p {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .social-media {
@@ -509,11 +511,10 @@ footer {
         font-size: 21px;
     }
     #we-are {
-        font-size: 11px;
+        font-size: 15px;
     }
     #we-are p {
-        font-size: 9px;
-        width: 300px;
+        font-size: 15px;
     }
     .text-link {
         font-size: 28px;
