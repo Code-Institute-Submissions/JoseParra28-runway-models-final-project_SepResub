@@ -64,22 +64,9 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
 }
-#cover-text {
-    height: 0px;
-    font-family: inherit;
-    font-size: 2em;
-    color: rgb(98, 93, 93);
-    text-align: center;
-    height: 64vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
 
 #cover-text h2 {
+    text-align: center;
     color:whitesmoke;
     font-size: 3rem;
     background: linear-gradient(4deg, black, transparent);
@@ -107,6 +94,9 @@ transform: scale(1.1);
     padding: 4px;
     border-bottom: 2px solid #3a3a3a;
 }
+#text-link:hover {
+    color: black;
+}
 p {
     font-size: 20px;
     text-align: center;
@@ -119,7 +109,7 @@ p {
 .hero-text {
     width: 50%;
     padding: 20px;
-    margin: 100px auto;
+    margin: 20px auto;
     flex-direction: row;
     justify-content: center;
 }
@@ -145,33 +135,33 @@ p {
     color: rgb(121, 118, 118);
     font-size: 25px;
    text-align: center;
+   border-bottom: 1px solid #3d3b3b;
 }
+
 
 .about-image {
     background-image: url(../css/images/three-men-wearing-white.jpeg);
     height: 67vh;
     width: 100%;
-    padding: 4%;
+    padding: 7%;
     margin: -5;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: right;
-    overflow: hidden;
-    margin-left: 0%;
-    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
     position:relative;
 }
-#we-are {
-    background: linear-gradient(50deg, #464646,transparent);
-    color: #3d3b3b;
-    font-size: 2em;
-    text-transform: uppercase;
-    width: 75%;
-    letter-spacing: 5px;
-    position: absolute;
-    left: 6%;
-    top: 16%;
-    text-align: left;
+#we-are h2 {
+    text-align: center;
+    color:whitesmoke;
+    font-size: 3rem;
+    background: linear-gradient(4deg, black, transparent);
+    padding: 32px;
+    width: 100%;
     animation-name: about-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -188,15 +178,7 @@ p {
 
 }
 
-#we-are-p {
-    color: #3d3b3b;
-    font-size: 30px;
-    text-transform: capitalize;
-    letter-spacing: 5px;
-    width: 500px;
-   
-    
-}
+
 #form-section {
     clear:both;
     background-size:cover;
