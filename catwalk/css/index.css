@@ -297,6 +297,11 @@ p {
     padding-bottom: 10px;
 
 }
+.container img {
+    height: 20vh;
+    float: right;
+    
+}
 
 #table {
     color: rgb(98, 93, 93);
@@ -574,7 +579,12 @@ footer {
 }
 
 .container iframe {
-    width: 300px;
+    width: 375px;
 }
 
+}
+@media screen and (max-width:350px) {
+    .container iframe {
+        width: 300px;
+}
 }
