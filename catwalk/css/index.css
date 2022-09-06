@@ -14,7 +14,7 @@
     letter-spacing: 5px;
     font-family: inherit;
     font-size: 3em;
-    color: rgb(121, 118, 118);
+    color: rgb(65, 64, 64);
 }
 
 span {
@@ -29,7 +29,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    display: grid;
+    display: flex;
     justify-content: center;
 }
 
@@ -37,13 +37,14 @@ nav a {
     text-decoration: none;
     font-size: 2em;
     text-align: center;
-    color: rgb(121, 118, 118);
+    color: rgb(65, 64, 64);
     display: block;
     padding: 4px;
 }
 
 nav a:hover {
     background-color: rgb(146, 145, 145);
+    border-radius: 1%;
 }
 
 .hov {
@@ -291,20 +292,23 @@ p {
 }
 
 #table {
-    color:rgb(98, 93, 93);
-    margin: 1%;
-    display: inline-block;
-    align-items: center;
+    color: rgb(98, 93, 93);
     background-color: whitesmoke;
-    width: 100%;
-    justify-content:flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: 1%;
+    display: block;
+    justify-content: center;
 }
 #table th {
     font-size: 2em;
     justify-content: flex-start;
+   
 }
 table td {
     font-size: 20px;
+ 
 }
 
 
@@ -369,10 +373,9 @@ footer {
     padding-top: 10px;
 }
 
+
 @media screen and (min-width:1200px) {
-    nav ul {
-        display: flex;
-    }
+   
     .form-image {
         height: 97vh;
     }
@@ -388,6 +391,10 @@ footer {
 
 
 @media screen and (max-width:950px) {
+    nav ul {
+        display: grid;
+    }
+    
     .logo {
         font-size: 2em;
     }
