@@ -98,6 +98,7 @@ transform: scale(1.1);
 }
 #text-link:hover {
     color: black;
+    font-size: 2em;
 }
 .text-image img {
      height: 13vh;
@@ -506,6 +507,7 @@ footer {
     }
     
 }
+}
 
 @media screen and (max-width:480px) {
     .logo {
@@ -531,30 +533,30 @@ footer {
     
     }
     .signup-form {
-        margin: 31px 10% 0 0;
-        max-width: 328px;
-        left: -2%;
-        padding: 30px;
+        margin: 3px 10% 0 0;
+        max-width: 300px;
+        left: 5%;
+        padding: 28px;
         font-size: 14px;
     
     }
     .signup-form > h2 {
         color: black;
         margin-bottom: 20px;
-        font-size: 20spx;
+        font-size: 20px;
     }
     .text-input-form {
         background:transparent;
         color:#000000;
         width: 92%;
-        height: 20px;
+        height: 15px;
         margin: 5px 0 20px 0;
         border: 1px solid #3a3a3a;
         border-radius: 2px;
         font-size: 18px;
     }
     #message {
-        height: 90px;
+        height: 29px;
         width: 92%;
     }
     .text-input-form:hover { 
@@ -565,6 +567,14 @@ footer {
 .form-image {
     height: 84vh;
 }
+.join-button {
+
+    padding: 9px 13px 9px 13px;
 
 }
+
+.container iframe {
+    width: 300px;
+}
+
 }
