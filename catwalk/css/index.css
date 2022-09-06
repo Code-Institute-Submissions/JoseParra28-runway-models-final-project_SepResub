@@ -67,9 +67,9 @@ nav a:hover {
 
 #cover-text h2 {
     text-align: center;
-    color:whitesmoke;
+    color:#222222;
     font-size: 3rem;
-    background: linear-gradient(4deg, black, transparent);
+    background: linear-gradient(10deg, #7e7e7e, transparent);
     padding: 32px;
     width: 100%;
     animation-name: hero-zoom;
@@ -155,11 +155,11 @@ p {
    
     position:relative;
 }
-#we-are h2 {
+ #we-are h2{
     text-align: center;
-    color:whitesmoke;
+    color:#343434;
     font-size: 3rem;
-    background: linear-gradient(4deg, black, transparent);
+    background: linear-gradient(2deg, #636363, transparent);
     padding: 32px;
     width: 100%;
     animation-name: about-zoom;
@@ -270,14 +270,12 @@ p {
     opacity: .9;
 }
 .container {
-    color: rgb(48, 48, 48);
+    color: rgb(98, 93, 93);
     background-color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 1%;
+   margin: 1%;
     display: block;
     justify-content: center;
     
@@ -293,8 +291,8 @@ p {
 }
 
 #table {
-    color:rgb(48, 48, 48);
-    padding-left: 2%;
+    color:rgb(98, 93, 93);
+    margin: 1%;
     display: inline-block;
     align-items: center;
     background-color: whitesmoke;
@@ -383,15 +381,9 @@ footer {
     }
 }
 @media screen and (max-width:1300px){
-    /*
-    .gallery img {
-        display: block;
-        height: 19vh;
-        width: 99%;
-}
-*/
+ 
 .form-image {
-    height: 97vh;
+    height: 131vh;
 }
 
 
@@ -403,12 +395,10 @@ footer {
     #cover-text h2 {
         font-size: 1em;
     }
-    #we-are {
-        font-size: 25px;
+    #we-are h2 {
+        font-size: 1em;
     }
-    #we-are p {
-        font-size: 20px;
-    }
+   
 
     .social-media {
         display: block;
@@ -509,15 +499,10 @@ footer {
         font-size: 1em;
     }
     #cover-text h2 {
-        font-size: 21px;
+        font-size: 13m;
        
     }
-    #we-are {
-        font-size: 15px;
-    }
-    #we-are p {
-        font-size: 15px;
-    }
+  
     .text-link {
         font-size: 28px;
     }
