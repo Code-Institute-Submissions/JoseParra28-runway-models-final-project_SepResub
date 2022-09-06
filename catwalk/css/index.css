@@ -87,6 +87,7 @@ transform: scale(1.1);
 }
 
 .text-link {
+    
     text-decoration: none;
     font-size: 2em;
     text-align: center;
@@ -97,6 +98,11 @@ transform: scale(1.1);
 }
 #text-link:hover {
     color: black;
+}
+.text-image img {
+     height: 13vh;
+     float: right;
+     margin: 10px;
 }
 p {
     font-size: 20px;
