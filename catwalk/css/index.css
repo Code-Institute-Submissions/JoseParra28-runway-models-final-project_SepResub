@@ -124,8 +124,20 @@ p {
     font-size: 2em;
     margin: 26px;
     color: rgb(98, 93, 93);
-    
+    animation-name: text-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+@keyframes text-zoom {
+from {
+transform: scale(1);
+}
+to {
+transform: scale(1.1);
+}
+}
+    
+
 .img-galley {
     width: 80%;
     margin: 31px auto 50px;
@@ -219,11 +231,11 @@ p {
     left: 19%;
     padding: 12px;
     font-size: 25px;
-    animation-name: about-zoom;
+    animation-name: form-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-@keyframes about-zoom {
+@keyframes form-zoom {
     from {
         transform: scale(1);
     }
