@@ -1,7 +1,10 @@
 # Runway Models
 
 I have built this Modelling agency website following one of my mo.
+<img src="catwalk/css/images/Am-i-home.png" alt="Am-i-home">
 <img src="catwalk/css/images/Am-i-about.png" alt="Am-i-about">
+<img src="catwalk/css/images/Am-i-models.png" alt="Am-i-models">
+<img src="catwalk/css/images/Am-i-contact.png" alt="Am-i-contact">
 
 # Strategy Plane
 
@@ -29,4 +32,4 @@ I have built this Modelling agency website following one of my mo.
 
 # Wireframe
 
-![alt="Wireframe-1](../runway-models-final-project/catwalk/css/images/man-weaing-a-hat.jpeg)
+<img src="catwalk/css/images/Am-i-about.png" alt="Am-i-about">
