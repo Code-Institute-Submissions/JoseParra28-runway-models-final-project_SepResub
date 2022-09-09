@@ -31,5 +31,28 @@ I have built this Modelling agency website following one of my mo.
 - As a user I want to have access to the site from different devices.
 
 # Wireframe
+## Home page
+<img src="catwalk/css/images/wireframe-home-page.png" alt="wireframe-home-page">
 
-<img src="catwalk/css/images/Am-i-about.png" alt="Am-i-about">
+## About page
+<img src="catwalk/css/images/wireframe-about-page.png" alt="wireframe-about-page">
+
+## Models page
+<img src="catwalk/css/images/wireframe-models-page.png" alt="wireframe-home-page">
+
+## Contact page
+<img src="catwalk/css/images/wireframe-contact-page.png" alt="wireframe-home-page">
+
+# Features
+
+## Navigation 
+
+- This wedsite consist in 4 different pages **Home** , **About** , **Models** , **Contact**.
+-  I have connected the Logo **"Runway Models"** to  **Home** which can be clicked anywhere in the page.
+- Right uder the logo, we can find the navigation bar easy to accesss with a hover effect and a current page indication, making it easy for the user to know in what section of the page they are at, and also it is easy for them to go back **Home** or navigate throught the site.
+- When this page is viewed in a device smalller that 950px, I have added a "hover-over" drop down **menu** bar making this site more apealling in smaller screen sizes, and the hover-over effect is provides an easy navigation experience. 
+- The **Logo** and **navigation** bar links help the user navigate accross the site's pages with simple, readable and direct names.
+
+
+
+
