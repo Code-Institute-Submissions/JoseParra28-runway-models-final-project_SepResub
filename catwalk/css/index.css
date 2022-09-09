@@ -85,18 +85,21 @@ transform: scale(1.1);
 }
 
 .text-link {
-    
-    text-decoration: none;
     font-size: 2em;
+    text-decoration: none;
     text-align: center;
     color:rgb(98, 93, 93) ;
     display: flex;
     padding: 4px;
     border-bottom: 2px solid #3a3a3a;
 }
-#text-link:hover {
-    color: black;
+#text-link {
     font-size: 2em;
+}
+
+#text-link:hover {
+   color:  #111111;
+   
 }
 .text-image img {
      height: 11vh;
@@ -402,6 +405,9 @@ footer {
    
     .form-image {
         height: 97vh;
+    }
+    .text-link {
+        font-size: 3em;
     }
     
 }
