@@ -1,7 +1,7 @@
 # Runway Models
 
 I have built this Modelling agency website following one of my mo.
-![alt="image"](../runway-models-final-project/catwalk/css/images/gray-scale-or-a-woman.jpeg)
+<img src="catwalk/css/images/Am-i-about.png" alt="Am-i-about">
 
 # Strategy Plane
 
