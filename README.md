@@ -53,6 +53,25 @@ I have built this Modelling agency website following one of my mo.
 - When this page is viewed in a device smalller that 950px, I have added a "hover-over" drop down **menu** bar making this site more apealling in smaller screen sizes, and the hover-over effect is provides an easy navigation experience. 
 - The **Logo** and **navigation** bar links help the user navigate accross the site's pages with simple, readable and direct names.
 
+## The Header
+- The header shows a h2 headder indicating what this site is about and the main location of the company with a background image displaying an artistic side view of a man wearing a hat, making it misterious yet, interesting to navigate throught.
+- The header has a zoom effect with the page is visited.
+- The header as well as the entire wedsite uses the colors: black, white and gray to avoid distraction and maintain consistency.
+
+## First section of the page 
+- The first section shows the hero image on the right side in a smaller size. 
+- On the left side hero text is shown give a quick description of the this page in about and what the company does.
+
+## footer 
+- The footer shows links for the social networks in the center.
+- The footes maintains the same hover effect as the navigation bar for consistency.
+- The links are in the for of Icons of each relevant link as well as the name of the link.
+- The links contain a hoover effect feature that when hoover over this links change color to the relevant links **Blue** for Twitter , **Red** for Youtube , **Yellow** for Instagram and **Aqua** for Facebook.
+
+
+
+
+
 
 
 
