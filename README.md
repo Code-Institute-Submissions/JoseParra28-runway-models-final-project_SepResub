@@ -157,6 +157,26 @@ I have built this Modelling agency website following one of my mother passions. 
 ## Link
 - The live link can be found here https://8000-joseparra28-runwaymodel-6np15jergs4.ws-eu64.gitpod.io/index.html
 
+# Credits
+## Content
+
+- The code for social media links was inspired from the CI Love Running Project.
+- Social media icons were take from Font-awsome
+- Font familly was taken from Google fonts
+- The code for form action in contact us page was taken from the CI Love Running Project.
+- Drop down menu bar for inspired by Slider Revolution (https://www.sliderrevolution.com/resources/css-dropdown-menu/)
+- Image hover code was instired by Wed zone (https://www.youtube.com/watch?v=Zz8A4NqoLrE&t=61s)
+- 
+- 
+
+# Media
+- All images were taken from Pexels.
+
+# Reference Material
+- Used W3School for deepen some topic for site improving such as shadowing of boxes, flexbox attribute and for have further knowledge about what I have studied with Code Institute during the site development.
+# Acknowledgements
+- I would like to thank my mentor Jubril Akolade who providel great help and mentoring during the development of this project giving me advice on how improve the site and the final look.
+
 
 
 
