@@ -317,11 +317,7 @@ transform: scale(1.1);
 .container h3{
     font-size: 2em;
 }
-.container h5 {
-    font-size: 20px ;
-    padding-bottom: 10px;
 
-}
 .container img {
     height: 26vh;
     float: right;

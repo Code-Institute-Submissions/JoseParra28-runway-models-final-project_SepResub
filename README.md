@@ -1,10 +1,7 @@
 # Runway Models
 
-I have built this Modelling agency website following one of my mo.
+I have built this Modelling agency website following one of my mother passions. I have created this site to allow users to interact with this site in a smooth and easy way. Images and colors were carefully choosen to maintain a concistent style across the entire page. My goals is to make this wedsite  merorable for anyone who enters this site.
 <img src="catwalk/css/images/Am-i-home.png" alt="Am-i-home">
-<img src="catwalk/css/images/Am-i-about.png" alt="Am-i-about">
-<img src="catwalk/css/images/Am-i-models.png" alt="Am-i-models">
-<img src="catwalk/css/images/Am-i-contact.png" alt="Am-i-contact">
 
 # Strategy Plane
 
@@ -18,7 +15,12 @@ I have built this Modelling agency website following one of my mo.
 - Ensure a pleasant navigation with images that describe the different themes addressed.
 - Create a matter of interest and trush amount users
 - Attract potensial clients and users to start a new career, making it easy to apply and or to contact.
-- Instant insterest by providind artistic image and interaction.
+- Instant insterest by providind artistic image and interactions.
+
+# Who's this wedsite for
+- Any one  who has an interest on becoming a model. 
+- Fashion designers , photographers or any company that requieres the sevices of a model. 
+- Users of all ages
 
 # User Stories
 
@@ -31,6 +33,7 @@ I have built this Modelling agency website following one of my mo.
 - As a user I want to have access to the site from different devices.
 
 # Wireframe
+## **The over all design of this wedsite is mean to be minimalistic yet appealing to the eyes, my goal was to create a site that is responsive and intuitive making it easy to navigate.**
 ## Home page
 <img src="catwalk/css/images/wireframe-home-page.png" alt="wireframe-home-page">
 
@@ -96,6 +99,7 @@ I have built this Modelling agency website following one of my mo.
 - The models gallery is displaied right under the motivational text, the galery includes the models names, i have carefully selected each image to maintain the wedsite's style. 
 - Each image has an individual zoom effect that when hover over (or clicked on touchscreen devices) it will increase the size of the image with a smooth transition.
 - This image gallery displays different colum counts depending on the device size that is being viewed.
+
 
 <img src="catwalk/css/images/Screenshot-models.png" alt="Screenshot-models">
 
