@@ -100,7 +100,8 @@ I have built this Modelling agency website following one of my mo.
 <img src="catwalk/css/images/Screenshot-models.png" alt="Screenshot-models">
 
 ## First section of About page
-- This section contains a **Form** with a *Make enquiry* h2 allowing the user to contact the company about Our models or Become a model, I have also icluded a text so the user can write down any quiry they may heva.
+- This section contains a **Form** with a *Make enquiry* h2 allowing the user to contact the company about Our models or Become a model, I have also icluded a text so the user can write down any quiry they may have.
+- The background image invites the user to make an enquiry.
 - This form contains required fiels, so the user can not submit the for with out filling the fiels wuth the right text.
 - I have included a hover over the **Submit** buttom. 
 - this for has a zoom animation when visited to maintain the style across the entire wedsite
@@ -113,6 +114,44 @@ I have built this Modelling agency website following one of my mo.
 - The table displays important information such as **Opening times**
 
 <img src="catwalk/css/images/Screenshot-contact-table.png" alt="Screenshot-contact-table">
+
+# Testing
+- I tested that this pages work in different browswers: Firefox, Chrome and Safari.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I have tested the **Make enquiry** form in the contact page and they all work by accepting only email in the email field, with a submit button that work as expected. 
+
+# Validator Testing
+
+## HTML
+- No errors were returned when passing through the official W3C validator.
+## CSS
+- No errors were found when passing through the official (Jigsaw) validator.
+
+# Accessibility
+- I confirm that after passing through the Lighthouse in devtool the font choose is clearly readable.
+# Performance
+## Home page
+<img src="catwalk/css/images/performance-home.png" alt="performance-home"> 
+
+## About page
+<img src="catwalk/css/images/performance-about.png" alt="performance-about"> 
+
+## Models page
+<img src="catwalk/css/images/performance-models.png" alt="performance-models"> 
+
+## Contact page
+<img src="catwalk/css/images/performance-contact.png" alt="performance-contact">
+
+# Bugs
+- No bugs were found during this project
+
+# Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Pages
+- Once the Pages has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+## Link
+- The live link can be found here https://8000-joseparra28-runwaymodel-6np15jergs4.ws-eu64.gitpod.io/index.html
 
 
 
