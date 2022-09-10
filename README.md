@@ -52,21 +52,67 @@ I have built this Modelling agency website following one of my mo.
 - Right uder the logo, we can find the navigation bar easy to accesss with a hover effect and a current page indication, making it easy for the user to know in what section of the page they are at, and also it is easy for them to go back **Home** or navigate throught the site.
 - When this page is viewed in a device smalller that 950px, I have added a "hover-over" drop down **menu** bar making this site more apealling in smaller screen sizes, and the hover-over effect is provides an easy navigation experience. 
 - The **Logo** and **navigation** bar links help the user navigate accross the site's pages with simple, readable and direct names.
+- The **Logo** and **navigation** bar links are coahesive across all pages.
 
-## The Header
+<img src="catwalk/css/images/Screenshot-nav-bar.png" alt="Screenshot-nav-bar">
+<img src="catwalk/css/images/Screenshot-nav-dropdown.png" alt="Screenshot-dropdown">
+
+## The Header - Homepage
 - The header shows a h2 headder indicating what this site is about and the main location of the company with a background image displaying an artistic side view of a man wearing a hat, making it misterious yet, interesting to navigate throught.
 - The header has a zoom effect with the page is visited.
 - The header as well as the entire wedsite uses the colors: black, white and gray to avoid distraction and maintain consistency.
 
-## First section of the page 
+<img src="catwalk/css/images/Screenshot-hero.png" alt="Screenshot-hero">
+
+## First section of home page
 - The first section shows the hero image on the right side in a smaller size. 
 - On the left side hero text is shown give a quick description of the this page in about and what the company does.
+
+<img src="catwalk/css/images/Screenshot-first-section-home.png" alt="first-section-home">
 
 ## footer 
 - The footer shows links for the social networks in the center.
 - The footes maintains the same hover effect as the navigation bar for consistency.
 - The links are in the for of Icons of each relevant link as well as the name of the link.
 - The links contain a hoover effect feature that when hoover over this links change color to the relevant links **Blue** for Twitter , **Red** for Youtube , **Yellow** for Instagram and **Aqua** for Facebook.
+
+<img src="catwalk/css/images/Screenshot-footer.png" alt="Screenshot-footer">
+
+## The Header - Aboutpage
+- The **About** page shows a h2 headder indicating what this current site is about with a background image displaying three guys wearing white t-shirts, making it misterious yet, appealing to the eye . I have choosen this image to avoid distraction from the main text. 
+- The header has a zoom effect with the page is visited.
+
+<img src="catwalk/css/images/Screenshot-about-hero.png" alt="Screenshot-about-hero">
+
+## First section of About page
+
+- In this section there are 4 different texts clearly indicating what this company is about, what they do, their story, their locotion and an ivitation to become a model.
+- It has a **Become a model** link that changes its color when hover over to indicate that this text is clickable, when clicked it will bring the user to the **Make Enquiry** page.
+
+<img src="catwalk/css/images/Screenshot-about-text.png" alt="Screenshot-about-text">
+
+## First section of Models page
+- In this section I have included a motivational text with a zoon effect.
+- The models gallery is displaied right under the motivational text, the galery includes the models names, i have carefully selected each image to maintain the wedsite's style. 
+- Each image has an individual zoom effect that when hover over (or clicked on touchscreen devices) it will increase the size of the image with a smooth transition.
+- This image gallery displays different colum counts depending on the device size that is being viewed.
+
+<img src="catwalk/css/images/Screenshot-models.png" alt="Screenshot-models">
+
+## First section of About page
+- This section contains a **Form** with a *Make enquiry* h2 allowing the user to contact the company about Our models or Become a model, I have also icluded a text so the user can write down any quiry they may heva.
+- This form contains required fiels, so the user can not submit the for with out filling the fiels wuth the right text.
+- I have included a hover over the **Submit** buttom. 
+- this for has a zoom animation when visited to maintain the style across the entire wedsite
+
+<img src="catwalk/css/images/Screenshot-form.png" alt="Screenshot-form">
+
+## Second section of About page
+- In this section I have included a **Contact us** text, indicating business addrees, email address, and phone number.
+- Thiis section contains a map indicatiin how to find the business.
+- The table displays important information such as **Opening times**
+
+<img src="catwalk/css/images/Screenshot-contact-table.png" alt="Screenshot-contact-table">
 
 
 

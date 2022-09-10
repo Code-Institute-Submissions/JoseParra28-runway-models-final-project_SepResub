@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
-
+/* Logo and nav bar*/
 * {
     padding: 0%;
     margin: 0%;
@@ -53,6 +53,8 @@ nav a:hover {
     border-bottom: 2px solid #3a3a3a;
 
 }
+
+/* Home page header and first section */
 .hero-image {
     background-image: url(../css/images/man-weaing-a-hat.jpeg);
     height: 64vh;
@@ -120,49 +122,7 @@ p {
     flex-direction: row;
     justify-content: center;
 }
-.models-text {
-    text-align: center;
-    font-size: 2em;
-    margin: 26px;
-    color: rgb(98, 93, 93);
-    animation-name: text-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-@keyframes text-zoom {
-from {
-transform: scale(1);
-}
-to {
-transform: scale(1.1);
-}
-}
-    
-
-.img-galley {
-    width: 80%;
-    margin: 31px auto 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
-}
-.img-galley img {
-    width: 100%;
-    cursor: pointer;
-    display: block;
-}
-.img-galley img:hover {
-    transform: scale(1.3);
-    z-index: 2;
-    transition: 1.5s;
-}
-.img-desc {
-    color: rgb(121, 118, 118);
-    font-size: 25px;
-   text-align: center;
-   border-bottom: 1px solid #3d3b3b;
-}
-
+/* About page image and texts */
 
 .about-image {
     background-image: url(../css/images/three-men-wearing-white.jpeg);
@@ -201,14 +161,52 @@ transform: scale(1.1);
 
 }
 
-
-#form-section {
-    clear:both;
-    background-size:cover;
-    background-position: center;
-    overflow:hidden;
-   
+/* Models page */
+.models-text {
+    text-align: center;
+    font-size: 2em;
+    margin: 26px;
+    color: rgb(98, 93, 93);
+    animation-name: text-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+@keyframes text-zoom {
+from {
+transform: scale(1);
+}
+to {
+transform: scale(1.1);
+}
+}
+  
+/* Models page  gallery*/
+
+.img-galley {
+    width: 80%;
+    margin: 31px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.img-galley img {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+}
+.img-galley img:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    transition: 1.5s;
+}
+.img-desc {
+    color: rgb(121, 118, 118);
+    font-size: 25px;
+   text-align: center;
+   border-bottom: 1px solid #3d3b3b;
+}
+
+/* contact page for section and form image */
 
 .form-image {
     background-image: url(../css/images/man-in-white-top.webp);
@@ -222,6 +220,14 @@ transform: scale(1.1);
     margin-top: 0%;
     position:relative;
 }
+#form-section {
+    clear:both;
+    background-size:cover;
+    background-position: center;
+    overflow:hidden;
+   
+}
+
 .signup-form {
     background: linear-gradient(6deg, #a2a2a2,transparent);
     margin: 150px 10% 0 0;
@@ -292,6 +298,7 @@ transform: scale(1.1);
     color: rgb(188, 184, 184);
     opacity: .9;
 }
+/* Contact us section*/
 .container {
     color: rgb(98, 93, 93);
     background-color: whitesmoke;
@@ -303,9 +310,12 @@ transform: scale(1.1);
     justify-content: center;
     
 }
-.container h3 {
+.container h2 {
     font-size: 2rem;
     
+}
+.container h3{
+    font-size: 2em;
 }
 .container h5 {
     font-size: 20px ;
@@ -313,7 +323,7 @@ transform: scale(1.1);
 
 }
 .container img {
-    height: 20vh;
+    height: 26vh;
     float: right;
     
 }
@@ -321,25 +331,36 @@ transform: scale(1.1);
 #table {
     color: rgb(98, 93, 93);
     background-color: whitesmoke;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-   margin: 1%;
+    margin: 1%;
+    width: 98%;
     display: block;
-    justify-content: center;
+   
 }
 #table th {
-    font-size: 2em;
+    font-size: 24px;
     justify-content: flex-start;
    
 }
 table td {
-    font-size: 20px;
+    font-size: 24px;
  
 }
 
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
 
+tr, th, td {
+	text-align: center;
+}
 
+th, td {
+	border: 0.1px solid #343434;
+	padding: 13px;
+}
+/* footer */
 footer {
 
     width: 100%;
@@ -408,6 +429,9 @@ footer {
     }
     .text-link {
         font-size: 3em;
+    }
+    p {
+        font-size: 25px;
     }
     
 }
@@ -577,7 +601,7 @@ footer {
         margin: 5px 0 20px 0;
         border: 1px solid #3a3a3a;
         border-radius: 2px;
-        font-size: 18px;
+        font-size: 12px;
     }
     #message {
         height: 29px;
@@ -596,12 +620,16 @@ footer {
     padding: 9px 13px 9px 13px;
 
 }
+#table th {
+    font-size: 19px;
+}
+th, td {
+	padding: 5px;
+}
 
 .container iframe {
     width: 375px;
 }
-
-
 }
 @media screen and (max-width:350px) {
     .container iframe {
