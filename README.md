@@ -167,8 +167,6 @@ I have built this Modelling agency website following one of my mother passions. 
 - The code for form action in contact us page was taken from the CI Love Running Project.
 - Drop down menu bar for inspired by Slider Revolution (https://www.sliderrevolution.com/resources/css-dropdown-menu/)
 - Image hover code was instired by Wed zone (https://www.youtube.com/watch?v=Zz8A4NqoLrE&t=61s)
-- 
-- 
 
 # Media
 - All images were taken from Pexels.
