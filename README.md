@@ -31,6 +31,7 @@ I have built this Modelling agency website following one of my mother passions. 
 - As a user I want to become a model
 - As a user I want a wedsite that is easy to navigate through.
 - As a user I want to have access to the site from different devices.
+- As a user I want to interact with this wedsite, and submit a quiriy
 
 # Wireframe
 ## **The over all design of this wedsite is mean to be minimalistic yet appealing to the eyes, my goal was to create a site that is responsive and intuitive making it easy to navigate.**
@@ -52,17 +53,17 @@ I have built this Modelling agency website following one of my mother passions. 
 
 - This wedsite consist in 4 different pages **Home** , **About** , **Models** , **Contact**.
 -  I have connected the Logo **"Runway Models"** to  **Home** which can be clicked anywhere in the page.
-- Right uder the logo, we can find the navigation bar easy to accesss with a hover effect and a current page indication, making it easy for the user to know in what section of the page they are at, and also it is easy for them to go back **Home** or navigate throught the site.
-- When this page is viewed in a device smalller that 950px, I have added a "hover-over" drop down **menu** bar making this site more apealling in smaller screen sizes, and the hover-over effect is provides an easy navigation experience. 
+- Right under the logo, we can find the navigation bar easy to accesss with a hover effect and a current page indication, making it easy for the user to know in what section of the page they are at, and also it is easy for them to go back **Home** or navigate throught the site.
+- When this page is viewed in a device smaller that 950px, I have added a "hover-over" drop down **Menu bar**  making this site more apealling and organized in smaller screen sizes, and the hover-over effect is provides an easy navigation experience. 
 - The **Logo** and **navigation** bar links help the user navigate accross the site's pages with simple, readable and direct names.
 - The **Logo** and **navigation** bar links are coahesive across all pages.
 
 <img src="catwalk/css/images/Screenshot-nav-bar.png" alt="Screenshot-nav-bar">
 <img src="catwalk/css/images/Screenshot-nav-dropdown.png" alt="Screenshot-dropdown">
 
-## The Header - Homepage
+## The Header - Home page
 - The header shows a h2 headder indicating what this site is about and the main location of the company with a background image displaying an artistic side view of a man wearing a hat, making it misterious yet, interesting to navigate throught.
-- The header has a zoom effect with the page is visited.
+- The header has a zoom effect that activates when the page is visited.
 - The header as well as the entire wedsite uses the colors: black, white and gray to avoid distraction and maintain consistency.
 
 <img src="catwalk/css/images/Screenshot-hero.png" alt="Screenshot-hero">
@@ -75,13 +76,13 @@ I have built this Modelling agency website following one of my mother passions. 
 
 ## footer 
 - The footer shows links for the social networks in the center.
-- The footes maintains the same hover effect as the navigation bar for consistency.
+- The footer maintains the same hover effect as the navigation bar for consistency.
 - The links are in the for of Icons of each relevant link as well as the name of the link.
 - The links contain a hoover effect feature that when hoover over this links change color to the relevant links **Blue** for Twitter , **Red** for Youtube , **Yellow** for Instagram and **Aqua** for Facebook.
 
 <img src="catwalk/css/images/Screenshot-footer.png" alt="Screenshot-footer">
 
-## The Header - Aboutpage
+## The Header - About page
 - The **About** page shows a h2 headder indicating what this current site is about with a background image displaying three guys wearing white t-shirts, making it misterious yet, appealing to the eye . I have choosen this image to avoid distraction from the main text. 
 - The header has a zoom effect with the page is visited.
 
@@ -89,21 +90,21 @@ I have built this Modelling agency website following one of my mother passions. 
 
 ## First section of About page
 
-- In this section there are 4 different texts clearly indicating what this company is about, what they do, their story, their locotion and an ivitation to become a model.
+- In this section there are 4 different texts clearly indicating important information of what this company is about, what they do, their story, their location and an ivitation to become a model.
 - It has a **Become a model** link that changes its color when hover over to indicate that this text is clickable, when clicked it will bring the user to the **Make Enquiry** page.
 
 <img src="catwalk/css/images/Screenshot-about-text.png" alt="Screenshot-about-text">
 
 ## First section of Models page
 - In this section I have included a motivational text with a zoon effect.
-- The models gallery is displaied right under the motivational text, the galery includes the models names, i have carefully selected each image to maintain the wedsite's style. 
+- The models gallery is displaied right under the motivational text, the galery includes the models names, I have carefully selected each image to maintain the wedsite's style. 
 - Each image has an individual zoom effect that when hover over (or clicked on touchscreen devices) it will increase the size of the image with a smooth transition.
 - This image gallery displays different colum counts depending on the device size that is being viewed.
 
 
 <img src="catwalk/css/images/Screenshot-models.png" alt="Screenshot-models">
 
-## First section of About page
+## First section of Contact page
 - This section contains a **Form** with a *Make enquiry* h2 allowing the user to contact the company about Our models or Become a model, I have also icluded a text so the user can write down any quiry they may have.
 - The background image invites the user to make an enquiry.
 - This form contains required fiels, so the user can not submit the for with out filling the fiels wuth the right text.
@@ -112,7 +113,7 @@ I have built this Modelling agency website following one of my mother passions. 
 
 <img src="catwalk/css/images/Screenshot-form.png" alt="Screenshot-form">
 
-## Second section of About page
+## Second section of Contact page
 - In this section I have included a **Contact us** text, indicating business addrees, email address, and phone number.
 - Thiis section contains a map indicatiin how to find the business.
 - The table displays important information such as **Opening times**
@@ -175,7 +176,7 @@ I have built this Modelling agency website following one of my mother passions. 
 # Reference Material
 - Used W3School for deepen some topic for site improving such as shadowing of boxes, flexbox attribute and for have further knowledge about what I have studied with Code Institute during the site development.
 # Acknowledgements
-- I would like to thank my mentor Jubril Akolade who providel great help and mentoring during the development of this project giving me advice on how improve the site and the final look.
+- I would like to thank my mentor Jubril Akolade who providel mentoring during the development of this project giving me valuable advice on how improve the site from start to finish.
 
 
 
