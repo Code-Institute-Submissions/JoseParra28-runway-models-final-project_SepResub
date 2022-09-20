@@ -156,7 +156,7 @@ I have built this Modelling agency website following one of my mother passions. 
 - From the source section drop-down menu, select the Pages
 - Once the Pages has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 ## Link
-- The live link can be found here https://8000-joseparra28-runwaymodel-25gipomq5w7.ws-eu64.gitpod.io/index.html
+- The live link can be found here https://joseparra28.github.io/runway-models-final-project/
 
 # Credits
 ## Content
